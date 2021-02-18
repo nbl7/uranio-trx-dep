@@ -1,0 +1,27 @@
+{
+	"name": "urn-trx-dep",
+	"version": "0.0.1",
+	"description": "Uranio trx dependencies",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -b"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/nbl7/urn-trx-dep.git"
+	},
+	"keywords": [
+		"uranio",
+		"urn"
+	],
+	"author": "Andrea Reni <mail@nbl7.net>",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/nbl7/urn-trx-dep#readme",
+	"devDependencies": {},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"module-alias": "^2.2.2",
+		"urn-lib": "git+ssh://git@bitbucket.org/nbl7/urn-lib.git"
+	}
+}
