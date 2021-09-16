@@ -21,7 +21,6 @@
 	"devDependencies": {},
 	"dependencies": {
 		"axios": "^0.21.1",
-		"module-alias": "^2.2.2",
-		"urn-web-dep": "git+ssh://git@bitbucket.org/nbl7/urn-api-dep.git"
+		"urn-api-dep": "git+ssh://git@bitbucket.org/nbl7/urn-api-dep.git"
 	}
 }
